@@ -1,0 +1,56 @@
+.slide{
+
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.image-slide {
+
+    height: 140px;
+}
+
+.image-slide2 {
+
+    height: 170px;
+}
+
+.banner-slide {
+
+    width: 100%;
+}
+
+.content {
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 390px;
+}
+
+.carousel-indicators .other{
+    background-color: #91BBDE; /* Cambia el color de fondo de los botones */
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 15px;
+}
+
+.carousel-indicators .active {
+    background-color: #0C65AF; /* Cambia el color de fondo del botón activo */
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 15px;
+}
+
+
+.slide-title {
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
