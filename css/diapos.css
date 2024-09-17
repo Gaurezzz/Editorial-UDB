@@ -15,11 +15,16 @@
     justify-content: center;
 }
 
-
-
 .slide-title {
 
     font-size: 25px;
     font-weight: bold;
+}
+
+#carrusel-1-txt {
+
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 600;
 }
 
