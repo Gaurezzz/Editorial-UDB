@@ -1,25 +1,90 @@
-.slide1 {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+.hojita1 {
+
+    position: absolute;
+    left:0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.hojita2 {
+
+    position: absolute;
+    right:0px;
+    top: 0px;
+    z-index: 3;
+}
+
+#carousel-editorial {
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#diapos {
+
+    position: relative;
     display: flex;
-    flex-direction: row;
-    gap:40px;
-    text-align: center;
+    height: 430px;
+    align-items: stretch;
+}
+
+.image-slide {
+
+    height: 140px;
+}
+
+.image-slide2 {
+
+    height: 170px;
 }
 
 .content {
 
-    align-items: center;
     flex-direction: column;
     display: flex;
-    height: 100%;
     justify-content: center;
+    height: 390px;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding: 0px;
+    flex-grow: 1;
+    max-width: none;
+    text-align: center;
+}
+
+#carousel-editorial .carousel-indicators button{
+    background-color: #91BBDE; 
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 15px;
+}
+
+#carousel-editorial .carousel-indicators .active {
+    background-color: #0C65AF; 
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 15px;
 }
 
 
-
-.slide-title {
+.content h3 {
 
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
