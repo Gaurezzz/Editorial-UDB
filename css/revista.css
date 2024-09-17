@@ -57,15 +57,15 @@ header {
     display: flex;
     align-items: center;
     position: relative;
-    justify-content: flex-start; /* Mueve el contenedor de búsqueda hacia la izquierda */
-    background-color: #f2ecec; /* Fondo gris similar al mockup */
-    padding: 5px 10px; /* Ajuste de padding para darle algo de espacio interior */
-    border-radius: 20px; /* Mantén las esquinas redondeadas */
-    margin-right: 100px; /* Ajusta el margen izquierdo para alinearlo */
+    justify-content: flex-start;
+    background-color: #f2ecec; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+    margin-right: 100px; 
 }
 
 .search-input {
-    border: none; /* Remueve los bordes del input */
+    border: none; 
     border-radius: 20px;
     padding: 5px 20px 5px 10px;
     outline: none;
