@@ -165,7 +165,8 @@ p {
 .publication-details h2 {
     font-size: 30px;
     color: #2675b7;
-    margin-bottom: 30px; 
+    margin-bottom: 100px; 
+    font-weight: bold;
 }
 
 .buttons-container {
