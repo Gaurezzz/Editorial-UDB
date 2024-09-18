@@ -117,7 +117,7 @@ h1 {
 }
 
 #el-verdadero{
-    font-size: 48px;
+    font-size: 38px;
     color: #1a5aa6;
     margin-bottom: 20px;    
 }
@@ -126,10 +126,6 @@ h1 {
     font-size: 20px;
     color: black;
     margin-bottom: 20px;
-}
-
-.banner{
-    padding-top: 100px;
 }
 
 .search-container1 {
@@ -161,9 +157,11 @@ h1 {
     cursor: pointer;
 }
 
+
 .image-container img {
-    width: 400px;
+    width: 100%;
     margin-right: 0; 
+    flex-shrink: 1;
 }
 
 /* Nueva sección Detalles de Publicación */
@@ -213,6 +211,11 @@ h1 {
 #editorial-button {
     margin-top: 10px; 
     padding: 15px 50px; 
+}
+
+.img-fluid {
+
+    height: 10px;
 }
 
 footer {

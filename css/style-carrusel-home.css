@@ -18,7 +18,25 @@ body{
 }
 
 .carrusel-padding{
-  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner-principal {
+
+  height: 75vh;
+  padding-left: 5%;
+}
+
+.card-body {
+
+  height: 250px;
+}
+
+.row{
+  align-items: center;
+  justify-content: center;
+
 }
 
 #colecciones-destacadas{
