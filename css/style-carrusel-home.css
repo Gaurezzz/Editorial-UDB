@@ -1,11 +1,11 @@
 body{
-    margin: 0px;
-    padding: 0px;
-  }
-
+  margin: 0px;
+  padding: 0px;
+}
 
 .fondo{ 
-  height: 800px;
+  height: 695px;
+  background-color: #8eccff;
   border-style: solid;
   border-color: transparent;
   border-top-left-radius: 125px;
@@ -17,15 +17,15 @@ body{
 }
 
 #colecciones-destacadas{
-  margin-top: 10px;
+  margin-top: 89px;
   background-color: transparent;
   color: #0C65AF;
   font-family: "Arial";
   border-color: #0C65AF;
   border-radius: 100px;
-  padding: 10px 10px;
+  padding: 10px 30px;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 89px;
   font-weight: bold;
 }
 
@@ -35,25 +35,12 @@ body{
   color: #0C65AF;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 #carouselExampleControls{
-  width: 80%;
+  width: 60%;
   height: 800px;
-}
-
-#carousel-1{
-  width: 70%;
-}
-
-#carousel-2{
-  width: 70%;
-}
-
-#main-scholar-texts-carousel{
-  width: 100%;
-  height: 200px;
 }
 
 .carousel-controls {
@@ -65,93 +52,8 @@ body{
   z-index: 1;
 }
 
-.pre-cards{
-  font-size: 40px;
-  font-family: "Arial";
-  font-weight: bold;
-  color: #0C65AF;
-}
-
-.pre-cards h2{
-  padding-top: 400px;
-  padding-bottom: 20px;
-}
-
 .carousel-control-prev,
 .carousel-control-next {
   margin: 0 -8rem; /* Agrega un margen de 5rem a izquierda y derecha */
-  margin-bottom: 10px;
-}
-
-.carousel-control-prev-v2{
-  margin: 0 12rem;
-  margin-bottom: 300px;
-}
-.carousel-control-next-v2 {
-  margin: 0 12rem;
-  margin-bottom: 300px;
-}
-
-
-
-.card-text{
-  font-family: "Montserrat";
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.manuales-main{
-  text-align:start;
-  padding-top: 25px;
-  height: 300px;
-
-}
-
-.main-txt{
-  font-size: 50px;
-  font-family: "Arial";
-  font-weight: bold;
-  color: #0C65AF;
-  padding: 50px;
-}
-
-#prev {
-
-  color:#000000;
-
-}
-
-#next {
-
-  color:#000000;
-
-}
-
-.main-img {
-  width:200px;
-  height: 200px;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-}
-
-#btns-cards{
-  background-color: #FBEA26;
-  border-color: transparent;
-  color: #000000;
-  border-radius: 200px;
-  font-family: "Montserrat";
-  font-size: 18px;
-  padding: 8px 20px;
-}
-
-.section{
-  margin-bottom: 0px;
-}
-
-.card-title{
-  justify-content: left;
-  padding-top: 20px;
-  color: #0C65AF;
-  font-size: 32px;
+  margin-bottom: 540px;
 }
