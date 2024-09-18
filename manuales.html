@@ -18,26 +18,20 @@
 
     <!--NAVBAR-->
     <header>
-        <div class="logo-container">
-            <img src="./img/Logo UDB.png" alt="Editorial UDB Logo" class="logo">
-            <img src="./img/Logo Normal.png" alt="Universidad Don Bosco Logo" class="logo">
-        </div>
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="./revistas.html">Revistas</a></li>
-                <li><a href="./coleccion_investigacion.html">Colecciones</a></li>
-                <li><a href="./manuales.html">Manuales</a></li>
-                <li><a href="./textos_escolares.html">Textos Escolares</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="search-container">
-            <input type="text" placeholder="¿Qué estás buscando?" class="search-input">
-            <button class="search-button">
-                <img src="./img/busqueda.png" alt="Buscar">
-            </button>
-        </div>
-    </header>
+      <div class="logo-container">
+          <img src="./img/Logo UDB.png" alt="Editorial UDB Logo" class="logo">
+          <img src="./img/Logo Normal.png" alt="Universidad Don Bosco Logo" class="logo">
+      </div>
+      <nav>
+          <ul class="nav-menu">
+              <li><a href="./revistas.html">Revistas</a></li>
+              <li><a href="./coleccion_investigacion.html">Colecciones</a></li>
+              <li><a href="./manuales.html">Manuales</a></li>
+              <li><a href="./textos_escolares.html">Textos Escolares</a></li>
+          </ul>
+      </nav>
+
+  </header>
 
     <!--Main-->
     <div class = "section">
@@ -46,9 +40,10 @@
 
         <div class = "manuales-main col-md-5">
             <h1 class = "main-txt">Encuentra tus manuales de laboratorio</h1>
+            <img src = "img/hojitas-manuales.svg" class = "main-img">
         </div>
 
-        <div class = "col-md-6 container-fluid fondo">
+        <div class = "col-md-6 container-fluid">
           <div id = "main-scholar-texts-carousel" class="carousel slide container" data-bs-ride="carousel">
             <div class="carousel-inner text-center">
                 <div class = "carousel-item active">
@@ -72,7 +67,7 @@
     </div>
 
     <div class = "section">
-      <div class = "container-fluid fondo">
+      <div class = "container-fluid ">
   
         <div id="carousel-2" class="carousel slide container" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -83,11 +78,11 @@
 
                 <div class = "triple-carta col-md-4">
                   <div class = "card">
-                    <img src = "/img/ahoraeditorialcosos.png" class = "card-img-top" alt = "...">
+                    <img src = "/img/quimicaminiatura.png" class = "card-img-top" alt = "...">
                     <div class = "card-body">
-                      <h3 class = "card-title">Card title</h3>
-                      <p class = "card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detalle-1" id = "btns-cards">
+                      <h3>Manual de Química General</h3>
+                        <p>Autor: Daniel Cruz Ochoa, Ruth Alas de Elías, Julio César García<br>Año de edición: 2012</p>
+                      <button type="button" class="btn btn-primary" onclick="window.location.href='./pdfs/manual-quimica.pdf'" data-bs-toggle="modal" data-bs-target="#detalle-1" id = "btns-cards">
                         Ver detalle
                       </button>
                     </div>
@@ -96,11 +91,12 @@
 
                 <div class = "triple-carta col-md-4">
                   <div class = "card">
-                    <img src = "/img/ahoraeditorialcosos.png" class = "card-img-top" alt = "...">
+                    <img src = "/img/fisicaIminiatura.png" class = "card-img-top" alt = "...">
                     <div class = "card-body">
-                      <h3 class = "card-title">Card title</h3>
-                      <p class = "card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detalle-2" id = "btns-cards">
+                      <h3 class = "card-title">Manual de Física I</h3>
+                      <p class = "card-text">Autor: Marleni Santos, Daniel Cruz y Marvin Serrano<br>
+                        Año de edición: 2012</p>
+                      <button type="button" class="btn btn-primary" onclick="window.location.href='./pdfs/manual-fisica-i.pdf'" data-bs-toggle="modal" data-bs-target="#detalle-2" id = "btns-cards">
                         Ver detalle
                       </button>
                     </div>
@@ -109,204 +105,29 @@
 
                 <div class = "triple-carta col-md-4">
                   <div class = "card">
-                    <img src = "/img/ahoraeditorialcosos.png" class = "card-img-top" alt = "...">
+                    <img src = "/img/matematica.png" class = "card-img-top" alt = "...">
                     <div class = "card-body">
-                      <h3 class = "card-title">Card title</h3>
-                      <p class = "card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detalle-3" id = "btns-cards">
+                      <h3 class = "card-title">Manual de Matemática I</h3>
+                      <p class = "card-text">Autor: CITT<br>
+                        Año de edición: 2012</p>
+                      <button type="button" class="btn btn-primary" onclick="window.location.href='./pdfs/marmoles-clarines-y-bronces.pdf'" data-bs-toggle="modal" data-bs-target="#detalle-3" id = "btns-cards">
                         Ver detalle
                       </button>
                     </div>
                   </div>
                 </div>
-  
+                </div>
               </div>
             </div>
   
           </div>
   
-          <button id = "prev" class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button id = "next" class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-  
         </div>
-  
+        
       </div>
     </div>
 
-    <!--TEXTOS ESCOLARES CARRUSEL 2-->
-    <div class = "section">
-      <div class = "container-fluid fondo">
-  
-        <div id="carousel-2" class="carousel slide container" data-bs-ride="carousel">
-          <div class="carousel-inner">
-  
-            <div class = "carousel-item active">
-  
-              <div class = "row">
-
-                <div class = "triple-carta col-md-4">
-                  <div class = "card">
-                    <img src = "/img/ahoraeditorialcosos.png" class = "card-img-top" alt = "...">
-                    <div class = "card-body">
-                      <h3 class = "card-title">Card title</h3>
-                      <p class = "card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detalle-4" id = "btns-cards">
-                        Ver detalle
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class = "triple-carta col-md-4">
-                  <div class = "card">
-                    <img src = "/img/ahoraeditorialcosos.png" class = "card-img-top" alt = "...">
-                    <div class = "card-body">
-                      <h3 class = "card-title">Card title</h3>
-                      <p class = "card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detalle-5" id = "btns-cards">
-                        Ver detalle
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class = "triple-carta col-md-4">
-                  <div class = "card">
-                    <img src = "/img/ahoraeditorialcosos.png" class = "card-img-top" alt = "...">
-                    <div class = "card-body">
-                      <h3 class = "card-title">Card title</h3>
-                      <p class = "card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>      
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detalle-6" id = "btns-cards">
-                        Ver detalle
-                      </button>
-                    </div>
-                  </div>
-                </div>
-  
-              </div>
-            </div>
-  
-          </div>
-  
-          <button id = "prev" class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button id = "next" class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-  
-        </div>
-  
-      </div>
-    </div>
-
-    <!--MAS INFO-->
-    <div class="modal fade" id="detalle-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle 1</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus beatae dolores ipsam laborum quaerat suscipit accusamus, sed expedita consequatur similique obcaecati, culpa in quas. Eaque molestias a at animi.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Regresar</button>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="modal fade" id="detalle-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle 2</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus beatae dolores ipsam laborum quaerat suscipit accusamus, sed expedita consequatur similique obcaecati, culpa in quas. Eaque molestias a at animi.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Regresar</button>
-            </div>
-          </div>
-        </div>
-    </div>       
-    <div class="modal fade" id="detalle-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle 3</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus beatae dolores ipsam laborum quaerat suscipit accusamus, sed expedita consequatur similique obcaecati, culpa in quas. Eaque molestias a at animi.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Regresar</button>
-            </div>
-          </div>
-        </div>
-    </div>   
-    <div class="modal fade" id="detalle-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle 4</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus beatae dolores ipsam laborum quaerat suscipit accusamus, sed expedita consequatur similique obcaecati, culpa in quas. Eaque molestias a at animi.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Regresar</button>
-            </div>
-          </div>
-        </div>
-    </div> 
-    <div class="modal fade" id="detalle-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle 5</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus beatae dolores ipsam laborum quaerat suscipit accusamus, sed expedita consequatur similique obcaecati, culpa in quas. Eaque molestias a at animi.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Regresar</button>
-            </div>
-          </div>
-        </div>
-    </div>  
-    <div class="modal fade" id="detalle-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle 6</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus beatae dolores ipsam laborum quaerat suscipit accusamus, sed expedita consequatur similique obcaecati, culpa in quas. Eaque molestias a at animi.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Regresar</button>
-            </div>
-          </div>
-        </div>
-    </div>      
-
-
+   
     <!--PIE DE PAGINA-->
     <div class = "section">
         <div class="container-fluid frame-footpage">

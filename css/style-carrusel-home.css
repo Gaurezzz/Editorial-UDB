@@ -5,8 +5,7 @@ body{
 
 
 .fondo{ 
-  height: 695px;
-  background-color: #ffffff;
+  height: 800px;
   border-style: solid;
   border-color: transparent;
   border-top-left-radius: 125px;
@@ -18,15 +17,15 @@ body{
 }
 
 #colecciones-destacadas{
-  margin-top: 89px;
+  margin-top: 10px;
   background-color: transparent;
   color: #0C65AF;
   font-family: "Arial";
   border-color: #0C65AF;
   border-radius: 100px;
-  padding: 10px 30px;
+  padding: 10px 10px;
   font-size: 20px;
-  margin-bottom: 89px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -36,7 +35,7 @@ body{
   color: #0C65AF;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 #carouselExampleControls{
@@ -65,10 +64,15 @@ body{
   color: #0C65AF;
 }
 
+.pre-cards h2{
+  padding-top: 400px;
+  padding-bottom: 20px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   margin: 0 -8rem; /* Agrega un margen de 5rem a izquierda y derecha */
-  margin-bottom: 540px;
+  margin-bottom: 10px;
 }
 
 
@@ -81,15 +85,37 @@ body{
 
 .manuales-main{
   text-align:start;
-  padding-top: 50px;
+  padding-top: 25px;
   height: 300px;
+
 }
 
 .main-txt{
-  font-size: 85px;
+  font-size: 50px;
   font-family: "Arial";
   font-weight: bold;
   color: #0C65AF;
+  padding: 50px;
+}
+
+#prev {
+
+  color:#000000;
+
+}
+
+#next {
+
+  color:#000000;
+
+}
+
+.main-img {
+  width:200px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 
 #btns-cards{
