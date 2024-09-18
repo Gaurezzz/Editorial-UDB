@@ -35,13 +35,9 @@
 
 .image-slide {
 
-    height: 140px;
+    width: 100%;
 }
 
-.image-slide2 {
-
-    height: 170px;
-}
 
 .content {
 
@@ -49,12 +45,26 @@
     display: flex;
     justify-content: center;
     height: 390px;
-    margin-left: 175px;
-    margin-right: 175px;
     padding: 0px;
     flex-grow: 1;
     max-width: none;
     text-align: center;
+}
+
+.slide1 .content {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.content h2 {
+
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    flex: 5px;
+    font-size: 25px;
+    
 }
 
 #carousel-editorial .carousel-indicators button{
