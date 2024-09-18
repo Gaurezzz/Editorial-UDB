@@ -46,24 +46,86 @@
             </button>
         </div>
     </header>
-    <div class = "section">
-        <main>
-            <div class="banner">
-                <h1>El verdadero espacio de aprendizaje</h1>
+
+    <div>
+        <div class = "row">
+
+            <div class = col-md-1></div>
+
+            <div class = "col-md-4 banner">
+                <h1 id = "el-verdadero">El verdadero espacio de aprendizaje</h1>
                 <p class="banner-text">Bienvenido a la editorial UDB</p>
                 <div class="search-container1">
                     <input type="text" placeholder="¿Qué estás buscando?">
                     <button><img class="searchimg" src="./img/busqueda.png" alt="Buscar"></button>
                 </div>
             </div>
-            <div class="image-container">
+
+            <div class = "carrusel-padding col-md-4">
+              <div class = "container-fluid fondo-main-carrusel text-center">
+                <div id="carrusel-main" class="carousel slide container" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <!--PRIMER ITEM | ACTIVO-->
+                    <div class = "carousel-item active">
+                      <div class = "row">
+                        <div class = "col-md-6">
+                          <img src = "img/imc1.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                        <div class = "col-md-6">
+                          <img src = "img/imc2.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!--LOS OTROS ITEMS-->
+                    <div class = "carousel-item">
+                      <div class = "row">
+                        <div class = "col-md-6">
+                          <img src = "img/imc3.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                        <div class = "col-md-6">
+                          <img src = "img/imc4.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                      <div class = "row">
+                        <div class = "col-md-6">
+                          <img src = "img/imc5.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                        <div class = "col-md-6">
+                          <img src = "img/imc6.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                      <div class = "row">
+                        <div class = "col-md-6">
+                          <img src = "img/imc7.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                        <div class = "col-md-6">
+                          <img src = "img/imc8.png" class = "img-fluid" alt="Imagen 1">
+                        </div>
+                      </div>
+                    </div>
+                                
+                  </div>
+                </div> 
+              </div>
+            </div>
+
+
+            <div class = "col-md-3 image-container">
                 <img src="./img/Group 7.svg" alt="Flores">
             </div>
-        </main>
+
+          </div>
     </div>
 
     <!--CARRUSEL 1-->
-    <div id = "section">
+    <div class = "section">
       <div id = "diapos">
       <div class="hojita1">
         <img src="./img/hojitas1.svg" alt="...">
@@ -116,7 +178,9 @@
     <div class = "section">
         <div class = "container-fluid fondo text-center">
 
-            <input class = "btn btn-primary" id = "colecciones-destacadas" type = "button" value = "Colecciones Destacadas">
+          <button class="btn btn-primary" id="colecciones-destacadas" type="button">
+            <a style="text-decoration: none;" href="./coleccion_investigacion.html">Colecciones Destacadas</a>
+          </button>
         
             <!--Carrusel Multi Item-->
             <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
@@ -185,7 +249,8 @@
           </div>
     </div>
 
-    <!--DETALLES DE PUBLICACION-->
+    <!--
+    DETALLES DE PUBLICACION
     <div class = "section">
         <section class="publication-details">
             <h2 class>Detalles de publicación</h2>
@@ -199,9 +264,10 @@
             </div>
         </section>
     </div>
+    -->
 
     <!--PIE DE PAGINA-->
-    <div class = "section">
+    <div>
         <div class="container-fluid frame-footpage">
             <div class="container footpage-up">
                 <div class="container footpage-column">
