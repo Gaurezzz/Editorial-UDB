@@ -3,57 +3,86 @@ body{
     padding: 0px;
   }
   
-  .fondo{ 
-    height: 695px;
-    background-color: #8eccff;
-    border-style: solid;
-    border-color: transparent;
-    border-top-left-radius: 125px;
-    border-top-right-radius: 125px;
-  }
+.fondo{ 
+  height: 695px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: transparent;
+  border-top-left-radius: 125px;
+  border-top-right-radius: 125px;
+}
 
-  .fondo-main-carrusel{
-    background-color: #ffffff;
-  }
-  
-  #colecciones-destacadas{
-    margin-top: 89px;
-    background-color: transparent;
-    color: #0C65AF;
-    font-family: "Arial";
-    border-color: #0C65AF;
-    border-radius: 100px;
-    padding: 10px 30px;
-    font-size: 20px;
-    margin-bottom: 89px;
-    font-weight: bold;
-  }
-  
-  .txt-colecciones-destacadas{
-    font-size: 18px;
-    font-family: "Arial";
-    color: #0C65AF;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 50px;
-  }
-  
-  #carouselExampleControls{
-    width: 60%;
-    height: 800px;
-  }
-  
-  .carousel-controls {
-    position: absolute;
-    top: 0%;
-    transform: translateY(50%);
-    left: 0;
-    right: 0;
-    z-index: 1;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    margin: 0 -8rem; /* Agrega un margen de 5rem a izquierda y derecha */
-    margin-bottom: 540px;
-  }
+.fondo-main-carrusel{
+  background-color: #ffffff;
+}
+
+#colecciones-destacadas{
+  margin-top: 89px;
+  background-color: transparent;
+  color: #0C65AF;
+  font-family: "Arial";
+  border-color: #0C65AF;
+  border-radius: 100px;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-bottom: 89px;
+  font-weight: bold;
+}
+
+.txt-colecciones-destacadas{
+  font-size: 18px;
+  font-family: "Arial";
+  color: #0C65AF;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#carouselExampleControls{
+  width: 80%;
+  height: 800px;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 0%;
+  transform: translateY(50%);
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin: 0 -8rem; /* Agrega un margen de 5rem a izquierda y derecha */
+  margin-bottom: 540px;
+}
+
+.card-title{
+  justify-content: left;
+  padding-top: 20px;
+  color: #0C65AF;
+
+}
+
+.card-text{
+
+}
+
+.manuales-main-txt{
+  font-size: 60px;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+
+#btns-cards{
+  background-color: #FBEA26;
+  border-color: transparent;
+  color: #000000;
+  border-radius: 200px;
+}
+
+.section{
+  margin-bottom: 50px;
+}
