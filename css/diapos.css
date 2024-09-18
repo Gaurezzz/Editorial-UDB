@@ -67,6 +67,7 @@
     
 }
 
+
 #carousel-editorial .carousel-indicators button{
     background-color: #91BBDE; 
     border-radius: 50%;
@@ -96,5 +97,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
+}
+
+#carrusel-1-txt {
+
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 600;
 }
 

@@ -5,9 +5,13 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "./css/index.css">
+
+    <!--Bootstrap HTML-->
+
     <link rel = "stylesheet" href = "./css/diapos.css">
     <link rel = "stylesheet" href = "./css/style-carrusel-home.css">
     <link rel = "stylesheet" href = "./css/general.css">
+
     <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel = "stylesheet" integrity = "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin = "anonymous">
     <link href = "https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel = "stylesheet">
     <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -48,6 +52,8 @@
     </header>
     <div class = "section">
         <main>
+            <!--Buscador-->
+            <div class="content">
             <div class="banner">
                 <h1>El verdadero espacio de aprendizaje</h1>
                 <p class="banner-text">Bienvenido a la editorial UDB</p>
@@ -56,9 +62,37 @@
                     <button><img class="searchimg" src="./img/busqueda.png" alt="Buscar"></button>
                 </div>
             </div>
-            <div class="image-container">
-                <img src="./img/Group 7.svg" alt="Flores">
+
+            <!--Carrusel Automatico-->
+            <div>
+                <div class = "container-fluid fondo-main-carrusel text-center">
+                    <div id="carrusel-main" class="carousel slide container" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+              
+                            <!--PRIMER ITEM | ACTIVO-->
+                            <div class = "carousel-item active">
+                                
+                                <!--Hacer una "row" si irán más de un ítem para que no se desconfigure feo-->
+                                <img src="./img/main1.svg" class="img-fluid" alt="Imagen 1">
+
+                            </div>
+
+                            <!--SEGUNDO ITEM-->
+                            <div class = "carousel-item">
+                
+                                
+
+                            </div>              
+                        </div>
+                    </div> 
+                </div>
             </div>
+
+            <!--Imagen de la izquierda-->
+            <div class = "image-container">
+                <img src = "./img/Group 7.svg" alt = "Flores">
+            </div>
+            
         </main>
     </div>
 
@@ -81,6 +115,21 @@
                 <div class="carousel-item active">
                   <div class="slide1">
                     <div class="content">
+                        <p class="slide-title">Editorial Universidad Don Bosco</p>
+
+                        <p id = "carrusel-1-txt">
+                            <b>Es una dependencia de la Universidad Don Bosco</b><br>
+                            adscrita a la Rectoría que nació para dar respuesta 
+                            a dos necesidades imperiosas de la Universidad:
+                        </p>
+                        <p id = "carrusel-1-txt">
+                            Crear espacios para la divulgación de los trabajos de 
+                            investigación de la Academia universitaria, y poner al 
+                            alcance los estudiantes textos de lectura comprensible 
+                            que, a la altura de las exigencias de la vida universitaria, 
+                            ofrezcan la posibilidad de seguir el desarrollo de las 
+                            materias que brindan en las diversas carreras.
+                        </p>
                         <h3>Editorial Universidad Don Bosco</h3>
                         <p><b>Es una dependencia de la Universidad Don Bosco</b><br>
                         adscrita a la Rectoría que nació para dar respuesta 
@@ -230,7 +279,7 @@
     </div>
 
     <!--Bootstrap CSS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
